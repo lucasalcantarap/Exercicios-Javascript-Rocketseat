@@ -1,3 +1,4 @@
 # Exercicios-Javascript-Rocketseat
  Exercicios de Javascript da SkyLab
-Entrar no console do navegador
+Exercícios da pasta intrdução a JS são visualizados no console do navegador
+
