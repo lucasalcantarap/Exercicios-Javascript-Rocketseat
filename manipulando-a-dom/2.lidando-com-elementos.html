@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lidando om Elementos</title>
+</head>
+<body>
+    <div id = 'app'>
+
+    </div>
+
+
+    <script>
+            var linkElement = document.createElement('a');
+
+            linkElement.setAttribute('href' , 'http://www.google.com');
+
+
+            var textElement = document.createTextNode('Clique aqui para acessar Google');
+            
+            linkElement.appendChild(textElement);
+
+            var containerElement = document.querySelector('#app');
+
+            containerElement.appendChild(linkElement);
+            
+
+
+    </script>
+</body>
+</html>
