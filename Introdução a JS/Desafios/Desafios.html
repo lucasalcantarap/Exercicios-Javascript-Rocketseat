@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Desafios</title>
+  </head>
+  <body>
+    <script>
+      var endereco = {
+        rua: "Arroio do meio",
+        numero: 25,
+        bairro: "Jardim Vista Alegre",
+        cidade: "São Paulo",
+        uf: "SP",
+      };
+
+      function exibeEndereco(endereco){
+          var retorno =`O usuário mora em ${endereco.cidade}/${endereco.uf}, no bairro ${endereco.bairro},na rua ${endereco.rua}, N°${endereco.numero}`
+            return retorno;
+      }
+        console.log(exibeEndereco(endereco))
+
+
+    </script>
+  </body>
+</html>

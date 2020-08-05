@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Desafio 5</title>
+</head>
+<body>
+    <script>
+         var usuarios = [
+  {
+    nome: "Diego",
+    habilidades: ["Javascript", "ReactJS", "Redux"]
+  },
+  { nome: "Gabriel", habilidades: ["VueJS", "Ruby on Rails", "Elixir"] }
+];
+
+const showMessage = usuarios => {
+  for (const user of usuarios) {
+    const { nome, habilidades } = user;
+    console.log(`O ${nome} possui as habilidades: ${habilidades.join(", ")}`);
+  }
+};
+
+    </script>
+</body>
+</html>
