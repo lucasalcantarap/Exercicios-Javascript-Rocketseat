@@ -1,6 +1,6 @@
 
 
-axios.get('https://api.github.com/users/lucaslacantarap')
+axios.get('https://api.github.com/users/lucasalcantarap')
     .then(function(response){
         console.log(response)
     })
