@@ -1,12 +1,5 @@
-alert('teste');
-
-class Teste {
-    metodo(){
-
-    }   
-    
-    outro(){
+class TodoList {
+    constructor(){
         
     }
-    
 }
